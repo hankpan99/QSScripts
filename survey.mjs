@@ -371,5 +371,30 @@ export default {
       description: "",
       options: ["1 - 2位", "3 - 4位", "5位以上"],
     },
+
+
+    // ---------- 參與者招募 ----------
+    {
+      type: "text",
+      content:`
+<h2 style="background-color: #FFF8E1; font-size: 28px;">實體實驗參與者招募</h2>
+<p style="font-size: 20px;">非常感謝您今天撥空參與問卷訪談！
+<p style="font-size: 20px;">基於今天的訪談結果，我們將進一步邀請 20 位受訪者來到學校，參與<strong>實體烹飪實驗</strong>。</p>
+<p style="font-size: 20px;"><strong>【實驗內容】</strong></p>
+<p style="font-size: 20px;">整體實驗約 60–90 分鐘，您將完成數項備餐情境任務，體驗與助手協作的人機互動方式。</p>
+<p style="font-size: 20px;">【時間與地點】</p>
+<p style="font-size: 20px;">國立陽明交通大學光復校區 工程四館 305 教室，預計七月下旬開始。</p>
+<p style="font-size: 20px;"><strong>【研究報酬】</strong></p>
+<p style="font-size: 20px;">完成者可獲得<strong>價值新臺幣 500 元 7-11 禮券</strong>。新竹市以外地區的參與者，另提供<strong>價值新臺幣 500 元 7-11 禮券</strong>作為車馬費補助。</p>      
+`,
+      newPage: true
+    },
+    {
+      type: "single",
+      question: "若您有興趣參與，請勾選「有興趣參與」，我們將再透過email和您聯絡：",
+      description: "",
+      required: false,
+      options: ["有興趣參與", "暫不參與"],
+    },
   ],
 };
