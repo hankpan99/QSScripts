@@ -1,5 +1,5 @@
 export default {
-  surveyId: "6a1c8e361c2a428a11fa50f5",
+  surveyId: "6a3c1b605bb6ae794d3c3350",
   questions: [
     // ---------- 問卷說明頁 ----------
     {
@@ -200,7 +200,10 @@ export default {
 1. ✋ **被動等待**：您下指令它才語音提醒、或是實體介入
 2. 🔈 **語音提醒**：偵測到需求時，主動出聲建議或提醒
 3. ❓ **詢問後實體介入**：偵測到需求時先問「需要幫忙嗎？」，您同意才動手
-4. ⚡ **直接實體介入**：偵測到需求時直接動手，不必等待您同意 <br><br>
+4. ⚡ **直接實體介入**：偵測到需求時直接動手，不必等待您同意
+
+<iframe style="display:block; width:900px; max-width:100%; aspect-ratio:16/9; margin:1.5em auto; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1); border:0;" src="https://drive.google.com/file/d/1qW6orQ5KRCK3VUR4vDuUWEWD7Oz9bUe6/preview" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+<br><br>
 `,
             requiredVoteFilter: "upvote",
             followupQuestions: [
@@ -253,7 +256,10 @@ export default {
 1. ✋ **被動等待**：您下指令它才語音提醒、或是實體介入
 2. 🔈 **語音提醒**：偵測到需求時，主動出聲建議或提醒
 3. ❓ **詢問後實體介入**：偵測到需求時先問「需要幫忙嗎？」，您同意才動手
-4. ⚡ **直接實體介入**：偵測到需求時直接動手，不必等待您同意 <br><br>
+4. ⚡ **直接實體介入**：偵測到需求時直接動手，不必等待您同意
+
+<iframe style="display:block; width:900px; max-width:100%; aspect-ratio:16/9; margin:1.5em auto; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1); border:0;" src="https://drive.google.com/file/d/1qW6orQ5KRCK3VUR4vDuUWEWD7Oz9bUe6/preview" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+<br><br>
 `,
             requiredVoteFilter: "upvote",
             followupQuestions: [
